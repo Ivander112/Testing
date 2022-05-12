@@ -1,0 +1,24 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "FIle percobaan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon run app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^5.19.4",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0",
+    "supertest": "^6.0.0",
+    "proxyquire": "^2.1.3"
+  }
+}
